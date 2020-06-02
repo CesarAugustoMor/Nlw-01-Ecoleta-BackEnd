@@ -9,5 +9,9 @@ module.exports = {
   migrations: {
     directory: path.resolve(__dirname, 'src', 'database', 'migrations'),
   },
+
+  seeds: {
+    directory: path.resolve(__dirname, 'src', 'database', 'seeds'),
+  },
   useNullAsDefault: true,
 };

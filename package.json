@@ -14,7 +14,8 @@
     "build": "tsc",
     "start": "ts-node-dev -r tsconfig-paths/register --transpileOnly --ignore-watch node_modules src/server.ts",
     "dev": "ts-node-dev -r tsconfig-paths/register --inspect --transpileOnly --ignore-watch node_modules src/server.ts",
-    "knex:migrate": "knex migrate:latest --knexfile knexfile.ts migrate:latest"
+    "knex:migrate": "knex --knexfile knexfile.ts migrate:latest",
+    "knex:seed": "knex --knexfile knexfile.ts seed:run"
   },
   "devDependencies": {
     "@types/cors": "^2.8.6",
