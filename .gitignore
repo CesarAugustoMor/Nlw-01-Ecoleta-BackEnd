@@ -12,6 +12,7 @@
 tmp/*
 !tmp/.gitkeep
 todo.md
+*.sqlite
 
 # production
 /build
