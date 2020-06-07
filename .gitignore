@@ -8,6 +8,7 @@
 # testing
 /coverage
 /uploads
+!uploads/.gitkeep
 tmp/*
 !tmp/.gitkeep
 todo.md
